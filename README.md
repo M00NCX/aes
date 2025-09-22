@@ -2,7 +2,7 @@
 
 Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CBC** diretamente pelo terminal.
 
-##📌 Pré-requisitos
+# Pré-requisitos
 
 - [Node.js](https://nodejs.org/) instalado (versão 14 ou superior).  
   Para verificar se está instalado:
@@ -14,12 +14,12 @@ Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CB
 
 ---
 
-## 📥 Instalação
+# Instalação
 
 1. Clone este repositório ou baixe o arquivo `crypto_cbc.js`:
 
    ```bash
-   git clone https://github.com/seu-repo/crypto-cbc.git
+   git clone https://github.com/aes/crypto-cbc.git
    cd crypto-cbc
    ```
 
@@ -30,7 +30,7 @@ Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CB
 https://nodejs.org/api/crypto.html
 ---
 
-## 🚀 Uso
+#Uso
 
 Formato geral:
 
@@ -47,7 +47,7 @@ node crypto_cbc.js <operacao> <arquivo_entrada> <arquivo_saida> <chave>
 
 ---
 
-## 🔒 Exemplo de Cifragem
+#🔒 Exemplo de Cifragem
 
 ```bash
 node crypto_cbc.js cifrar mensagem.txt mensagem.enc minha_chave_secreta
@@ -57,7 +57,7 @@ Isso vai gerar o arquivo `mensagem.enc` com o conteúdo criptografado.
 
 ---
 
-## 🔓 Exemplo de Decifragem
+#🔓 Exemplo de Decifragem
 
 ```bash
 node crypto_cbc.js decifrar mensagem.enc mensagem_decifrada.txt minha_chave_secreta
@@ -67,7 +67,7 @@ Se a chave usada for a mesma da cifragem, o arquivo `mensagem_decifrada.txt` ter
 
 ---
 
-## ⚠️ Observações
+#Observações
 
 * Se a chave informada na decifragem não for a mesma usada na cifragem, o programa exibirá erro.
 * O IV (vetor de inicialização) é gerado automaticamente e salvo junto ao arquivo cifrado.
