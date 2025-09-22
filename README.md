@@ -10,7 +10,6 @@ Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CB
   node -v
   ```
 
-````
 
 ---
 
