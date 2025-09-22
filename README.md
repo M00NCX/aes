@@ -2,9 +2,7 @@
 
 Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CBC** diretamente pelo terminal.
 
----
-
-## 📌 Pré-requisitos
+##📌 Pré-requisitos
 
 - [Node.js](https://nodejs.org/) instalado (versão 14 ou superior).  
   Para verificar se está instalado:
