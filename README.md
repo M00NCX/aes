@@ -18,7 +18,7 @@ Este programa permite **cifrar e decifrar** arquivos utilizando **AES no modo CB
 1. Clone este repositório ou baixe o arquivo `crypto_cbc.js`:
 
    ```bash
-   git clone https://github.com/aes/crypto-cbc.git
+   git clone https://github.com/M00NCX/aes/
    cd crypto-cbc
    ```
 
