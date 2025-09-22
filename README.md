@@ -69,4 +69,3 @@ Se a chave usada for a mesma da cifragem, o arquivo `mensagem_decifrada.txt` ter
 
 * Se a chave informada na decifragem não for a mesma usada na cifragem, o programa exibirá erro.
 * O IV (vetor de inicialização) é gerado automaticamente e salvo junto ao arquivo cifrado.
-````
