@@ -43,7 +43,9 @@ node crypto_cbc.js <operacao> <arquivo_entrada> <arquivo_saida> <chave>
 * `operacao`: `cifrar` ou `decifrar`
 * `arquivo_entrada`: caminho do arquivo a ser processado
 * `arquivo_saida`: caminho para salvar o arquivo resultante
-* `chave`: string usada como chave (será derivada em SHA-256 para AES-256)
+* `chave`: string usada como senha.
+  Uma chave de 256 bits é derivada usando **PBKDF2 (SHA-256, 100.000 iterações)** com um salt aleatório.
+  O salt e o IV são armazenados junto ao arquivo cifrado para que a decifragem seja possível.
 
 ---
 
